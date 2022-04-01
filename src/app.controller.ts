@@ -9,10 +9,10 @@ export class AppController {
 
   constructor(private readonly appService: AppService) {
     this.app = new App({
-      token: "xoxb-2329760138-3286805444182-Lb4LEzzRF5Zq8rIULrW89Eaz",
-      signingSecret: "17a8ccc4df079de7e83985738e940b82",
+      token: "",
+      signingSecret: "",
       socketMode: true,
-      appToken: "xapp-1-A038MDCD80J-3293496385587-d0bc6157fe7924890eae6535ff42146dfe1fe1ff70117df2d67f69d47a9185ab",
+      appToken: "",
     });
   }
 
