@@ -9,7 +9,7 @@ export class AppController {
 
   constructor(private readonly appService: AppService) {
     this.app = new App({
-      token: process.env.B_SLACK_BOLT_TOKEN,
+      token: process.env.SLACK_BOT_TOKEN,
       signingSecret: process.env.SLACK_SIGNING_SECRET,
       socketMode: true,
       appToken: process.env.B_SLACK_BOLT_TOKEN,
