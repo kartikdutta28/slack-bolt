@@ -11,6 +11,7 @@ export class AppController {
     console.log(process.env.SLACK_BOT_TOKEN);
     console.log(process.env.SLACK_SIGNING_SECRET);
     console.log(process.env.B_SLACK_BOLT_TOKEN);
+    console.log(process.env.PORT);
     this.app = new App({
       token: process.env.SLACK_BOT_TOKEN,
       signingSecret: process.env.SLACK_SIGNING_SECRET,
